@@ -28,11 +28,9 @@ export default function Card({ title, description, bullets, downloadText, downlo
                 <p className="card-description"> 
                 Key Features:
                     <ul>
-                        {/* Not working for static HTML */}
-                        {/* {bullets.map(text => <li className="card-list-item">{text}</li>)} */}
-                        <li>{bullets[0]}</li>
-                        <li>{bullets[1]}</li>
-                        <li>{bullets[2]}</li>
+                        <li>Image-Based Caloric Results</li>
+                        <li>Effortless Tracking</li>
+                        <li>Minimalistic Design</li>
                     </ul>
                 </p>
                 <p>{downloadText}</p>
