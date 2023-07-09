@@ -33,7 +33,7 @@ export default function Card({ title, description, bullets, downloadText, downlo
                         <li>Minimalistic Design</li>
                     </ul>
                 </p>
-                <p>{downloadText}</p>
+                <a href={downloadLink}>{downloadText}</a>
             </div>
         </div>
   )
