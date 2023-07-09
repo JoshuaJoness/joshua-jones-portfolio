@@ -8,5 +8,15 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  plugins: [],
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'CreativeVintageDraft',
+        ],
+        display: 'swap',
+      },
+    },
+  ],
 }

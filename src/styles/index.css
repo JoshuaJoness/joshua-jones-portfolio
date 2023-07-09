@@ -1,0 +1,251 @@
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper,
+main
+{
+    font-family: CreativeVintageDraft, sans-serif;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #FBB98C;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+    margin: 0;
+    color: #333;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 32px;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 22px;
+}
+
+nav {
+    position: absolute;
+    z-index: 9999;
+}
+
+span {
+    font-size: 32px;
+}
+
+.splash-image {
+    background-image: url(/images/splash.jpeg); 
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+}
+
+.about-container{
+    background-color: #FFF;
+    height: 50vh;
+    padding: 25px;
+    text-align: center;
+}
+
+.portfolio-container {
+    background-color: #FBB98C;
+    height: 50vh;
+    padding: 25px;
+}
+
+.resume-container {
+    height: 75vh;
+    background: #FFF;
+    align-items: center;
+    display: block;
+    padding: 25px;
+}
+
+.orange-text {
+    color: #F87E51;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+  
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+.card-content {
+    padding: 16px;
+}
+  
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+  
+.card-description {
+    font-size: 12px;
+    color: #666;
+}
+
+video {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 135px !important;
+}
+
+.react-player {
+    width: 135px !important;
+    height: auto !important;
+}
+
+.card-list-item {
+    font-size: 10px;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.resume-image {
+    width: 80vw;
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    zoom: 1.2;
+}
+
+.resume-download-link {
+    display: block;
+    text-align: right;
+    margin-right: 10vw;
+    margin-top: 10px;
+}
+
+.contact-container {
+    width: 100%;
+    display: flex;
+}
+
+.contact-image {
+    height: 150px;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.contact-link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-link {
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for desktop and tablet screens */
+@media only screen and (min-width: 768px) {
+    .intro-paragraph {
+        width: 500px;
+        display: block;
+        font-size: 32px;
+        margin: auto;
+    }
+
+    .about-container{
+        height: 100vh;
+    }
+    
+    .portfolio-container {
+        height: 100vh;
+    }
+
+    .resume-container {
+        height: 120vh;
+    }
+
+    .card {
+        width: 60vw;
+
+    }
+
+    .card-title {
+        font-size: 32px;
+    }
+
+    .card-description {
+        font-size: 22px;
+    }
+
+    .card-list-item {
+        font-size: 20px
+    }
+
+    .pdf-container {
+        width: 100%;
+        padding: 25px;
+      }
+
+    .resume-image {
+        width: 35vw;
+        display: block;
+        margin: auto;
+      }
+
+    .resume-download-link {
+        display: block;
+        text-align: right;
+        margin-right: 31vw;
+    }
+
+    .contact-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .react-player {
+        width: 320px !important;
+        height: auto !important;
+    }
+
+    video {
+        width: 320px !important;
+    }
+}
