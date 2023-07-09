@@ -1,8 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="/images/splash.jpeg" />
-  </a>
+  <img alt="Gatsby" src="/public/images/splash.jpeg" />
 </p>
 <h1 align="center">
   Joshua Jones Portfolio
