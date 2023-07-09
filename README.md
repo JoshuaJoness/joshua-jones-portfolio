@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <img alt="Gatsby" src="/public/images/splash.jpeg" />
+  <img alt="Splash" src="/public/images/splash.jpeg" />
 </p>
 <h1 align="center">
   Joshua Jones Portfolio
